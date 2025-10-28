@@ -19,7 +19,11 @@ An AI-powered interview practice system that generates role-specific questions a
 
 ## Demo
 
-Check out the `demo_video.mp4` in the repository to see the application in action!
+Check out the demo video, to see the application in action!
+
+
+https://github.com/user-attachments/assets/29929668-590c-40ad-859d-60b7e1f300c3
+
 
 ## Architecture
 
