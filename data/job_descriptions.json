@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "company": "Tech Corp",
+    "description": "We are seeking a talented Software Engineer to join our team. You will be responsible for developing scalable web applications using React, Node.js, and cloud technologies. Requirements include 3+ years of experience, proficiency in JavaScript/TypeScript, experience with AWS or GCP, and strong problem-solving skills. You'll work in an agile environment, collaborate with cross-functional teams, and contribute to architectural decisions.",
+    "skills": ["React", "Node.js", "JavaScript", "AWS", "Agile", "Problem Solving"],
+    "level": "Mid-Senior"
+  },
+  {
+    "id": 2,
+    "title": "Data Scientist",
+    "company": "AI Labs",
+    "description": "Join our data science team to build cutting-edge machine learning models. You will work on NLP and computer vision projects, develop predictive models, and deploy ML solutions at scale. Requirements: MS/PhD in Computer Science or related field, 2+ years of experience, proficiency in Python, TensorFlow/PyTorch, experience with large datasets, and strong statistical background.",
+    "skills": ["Python", "Machine Learning", "NLP", "TensorFlow", "Statistics", "Computer Vision"],
+    "level": "Mid-Senior"
+  },
+  {
+    "id": 3,
+    "title": "Product Manager",
+    "company": "Startup Inc",
+    "description": "We're looking for a Product Manager to drive product strategy and execution. You'll define product roadmaps, work with engineering and design teams, conduct user research, and analyze metrics. Requirements include 4+ years of PM experience, strong analytical skills, experience with agile methodologies, excellent communication, and technical background preferred.",
+    "skills": ["Product Strategy", "Agile", "User Research", "Analytics", "Communication", "Leadership"],
+    "level": "Senior"
+  }
+]

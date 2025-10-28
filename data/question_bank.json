@@ -1,0 +1,74 @@
+{
+  "technical": [
+    {
+      "question": "What is your approach to writing unit tests? How do you determine what to test?",
+      "difficulty": "Easy",
+      "skills": ["Testing", "Quality Assurance", "Software Development"],
+      "category": "technical"
+    }
+  ],
+  "behavioral": [
+    {
+      "question": "Tell me about a time when you had to work with a difficult team member. How did you handle it?",
+      "difficulty": "Medium",
+      "skills": ["Teamwork", "Conflict Resolution", "Communication"],
+      "category": "behavioral"
+    },
+    {
+      "question": "Describe a situation where you had to meet a tight deadline. What was your approach?",
+      "difficulty": "Easy",
+      "skills": ["Time Management", "Pressure Handling", "Prioritization"],
+      "category": "behavioral"
+    },
+    {
+      "question": "Tell me about a time when you failed at something. What did you learn?",
+      "difficulty": "Medium",
+      "skills": ["Self-Awareness", "Growth Mindset", "Resilience"],
+      "category": "behavioral"
+    },
+    {
+      "question": "Describe a project where you had to persuade others to adopt your idea. How did you do it?",
+      "difficulty": "Medium",
+      "skills": ["Influence", "Communication", "Leadership"],
+      "category": "behavioral"
+    },
+    {
+      "question": "Give an example of when you went above and beyond your job responsibilities.",
+      "difficulty": "Easy",
+      "skills": ["Initiative", "Commitment", "Ownership"],
+      "category": "behavioral"
+    }
+  ],
+  "situational": [
+    {
+      "question": "If you discovered a critical bug in production right before a major release, what would you do?",
+      "difficulty": "Medium",
+      "skills": ["Problem Solving", "Decision Making", "Crisis Management"],
+      "category": "situational"
+    },
+    {
+      "question": "How would you handle a situation where your manager asked you to do something you believed was technically incorrect?",
+      "difficulty": "Hard",
+      "skills": ["Professional Ethics", "Communication", "Courage"],
+      "category": "situational"
+    },
+    {
+      "question": "If you were assigned to a project using a technology you've never worked with, how would you approach it?",
+      "difficulty": "Easy",
+      "skills": ["Learning Agility", "Adaptability", "Initiative"],
+      "category": "situational"
+    },
+    {
+      "question": "What would you do if you realized you couldn't meet a deadline you committed to?",
+      "difficulty": "Medium",
+      "skills": ["Responsibility", "Communication", "Problem Solving"],
+      "category": "situational"
+    },
+    {
+      "question": "How would you prioritize multiple urgent tasks from different stakeholders?",
+      "difficulty": "Medium",
+      "skills": ["Prioritization", "Stakeholder Management", "Time Management"],
+      "category": "situational"
+    }
+  ]
+}
