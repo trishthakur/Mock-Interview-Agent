@@ -259,7 +259,7 @@ Based on the evaluation, the system provides:
 - Helps personalize questions to your background
 - Supports PDF, TXT, and DOCX formats
 
-### Tab 2: Interview (💬)
+### Tab 2: Interview
 
 **Practice Workflow**
 1. Click "Generate New Question" to get a role-specific question
