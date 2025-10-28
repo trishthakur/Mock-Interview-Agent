@@ -444,44 +444,6 @@ streamlit run app.py --server.port 8501
 3. Connect your GitHub repository
 4. Deploy with one click
 
-### Docker Deployment
-
-Create `Dockerfile`:
-
-```dockerfile
-FROM python:3.9-slim
-
-WORKDIR /app
-
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-
-COPY . .
-
-EXPOSE 8501
-
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
-```
-
-Build and run:
-```bash
-docker build -t mock-interview-agent .
-docker run -p 8501:8501 mock-interview-agent
-```
-
-### Heroku Deployment
-
-Create `Procfile`:
-```
-web: streamlit run app.py --server.port=$PORT --server.address=0.0.0.0
-```
-
-Deploy:
-```bash
-heroku create your-app-name
-git push heroku main
-```
-
 ## 📊 Example Outputs
 
 ### High-Scoring Response (85%)
