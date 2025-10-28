@@ -8,22 +8,22 @@ An AI-powered interview practice system that generates role-specific questions a
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 🌟 Features
+## Features
 
-- **🎲 Intelligent Question Generation**: Uses RAG to generate role-specific questions grounded in curated job descriptions
-- **🧠 Chain-of-Thought Evaluation**: Provides detailed reasoning for feedback scores with transparent analysis
-- **📊 Performance Analytics**: Track your progress across multiple interview sessions
-- **📝 Multi-Category Questions**: Technical, behavioral, and situational questions tailored to your role
-- **📈 Progress Tracking**: Visualize improvement over time with detailed metrics
-- **🎯 Personalized Feedback**: Tailored suggestions based on comprehensive response analysis
-- **📄 Resume Integration**: Upload your resume for more personalized question generation
-- **💾 Session History**: Review all past interviews with complete feedback
+- **Intelligent Question Generation**: Uses RAG to generate role-specific questions grounded in curated job descriptions
+- **Chain-of-Thought Evaluation**: Provides detailed reasoning for feedback scores with transparent analysis
+- **Performance Analytics**: Track your progress across multiple interview sessions
+- **Multi-Category Questions**: Technical, behavioral, and situational questions tailored to your role
+- **Progress Tracking**: Visualize improvement over time with detailed metrics
+- **Personalized Feedback**: Tailored suggestions based on comprehensive response analysis
+- **Resume Integration**: Upload your resume for more personalized question generation
+- **Session History**: Review all past interviews with complete feedback
 
-## 🎥 Demo
+## Demo
 
 Check out the `demo_video.mp4` in the repository to see the application in action!
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────┐
@@ -57,18 +57,7 @@ Check out the `demo_video.mp4` in the repository to see the application in actio
 - **File Processing**: PyPDF2, python-docx
 - **Data Storage**: CSV, JSON
 
-## 📋 Table of Contents
-
-- [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
-- [How It Works](#-how-it-works)
-- [Usage Guide](#-usage-guide)
-- [Customization](#-customization)
-- [Testing](#-testing)
-- [Contributing](#-contributing)
-- [License](#-license)
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -80,7 +69,7 @@ Check out the `demo_video.mp4` in the repository to see the application in actio
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/mock-interview-agent.git
+git clone https://github.com/trishthakur/mock-interview-agent.git
 cd mock-interview-agent
 ```
 
@@ -114,7 +103,7 @@ streamlit run app.py
 
 The app will open automatically in your default browser at `http://localhost:8501`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mock-interview-agent/
@@ -146,7 +135,7 @@ mock-interview-agent/
     └── test_evaluator.py     # Evaluator tests
 ```
 
-## 💡 How It Works
+## How It Works
 
 ### 1. RAG-Based Question Generation
 
@@ -188,7 +177,7 @@ question = question_gen.generate_question(
 The evaluator analyzes responses using **explicit reasoning steps**:
 
 ```
-📊 Evaluation Process:
+Evaluation Process:
 
 Step 1: Length Analysis
 ├─ Count words in response
@@ -240,12 +229,12 @@ Step 3 - Specificity Analysis: Checking for concrete examples...
 Step 4 - Relevance Analysis: Assessing alignment with question...
 → High relevance: 75% keyword alignment
 
-✅ Strengths:
+Strengths:
 - Comprehensive response with 127 words
 - Well-structured answer using SITUATION, TASK, ACTION, RESULT
 - Included specific details: metrics, timeframes, technologies
 
-💡 Areas for Improvement:
+Areas for Improvement:
 - Consider mentioning team collaboration aspects
 ```
 
@@ -259,9 +248,9 @@ Based on the evaluation, the system provides:
 - **Score Breakdown**: Transparent reasoning for every point
 - **Progress Tracking**: Historical performance analysis
 
-## 🎓 Usage Guide
+## Usage Guide
 
-### Tab 1: Setup (📝)
+### Tab 1: Setup 
 
 **Select Job Description**
 1. Choose from pre-loaded library of common roles
@@ -287,7 +276,7 @@ Based on the evaluation, the system provides:
 - **Behavioral**: Past experiences, teamwork, conflict resolution
 - **Situational**: Hypothetical scenarios, decision-making
 
-### Tab 3: History (📚)
+### Tab 3: History 
 
 **Review Past Interviews**
 - View all previous questions and responses
@@ -296,7 +285,7 @@ Based on the evaluation, the system provides:
 - Review feedback for each response
 - Track improvement areas
 
-### Tab 4: Analytics (📈)
+### Tab 4: Analytics 
 
 **Performance Metrics**
 - Total questions completed
@@ -306,9 +295,9 @@ Based on the evaluation, the system provides:
 - Score progression over time (line chart)
 - Common improvement areas
 
-## 🎯 Tips for Better Results
+## Tips for Better Results
 
-### ✅ Use the STAR Method
+### Use the STAR Method
 
 Every behavioral/situational response should include:
 - **S**ituation: Set the context (when, where, what was happening)
@@ -348,7 +337,7 @@ Include concrete details:
 - Use keywords from the question in your response
 - Stay on topic throughout
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Job Descriptions
 
@@ -429,7 +418,7 @@ python -m pytest tests/ --cov=src --cov-report=html
 
 View coverage report: `open htmlcov/index.html`
 
-## 🚀 Deployment Options
+## Deployment Options
 
 ### Local Development
 
@@ -444,7 +433,7 @@ streamlit run app.py --server.port 8501
 3. Connect your GitHub repository
 4. Deploy with one click
 
-## 📊 Example Outputs
+## Example Outputs
 
 ### High-Scoring Response (85%)
 
@@ -480,19 +469,14 @@ streamlit run app.py --server.port 8501
 - [ ] Add interview scheduling features
 - [ ] Create Chrome extension for LinkedIn integration
 
-### Issues & Questions
-
-- Report bugs: [GitHub Issues](https://github.com/yourusername/mock-interview-agent/issues)
-- Feature requests: [GitHub Discussions](https://github.com/yourusername/mock-interview-agent/discussions)
-
-## 📚 Additional Resources
+## Additional Resources
 
 - [STAR Method Guide](https://www.indeed.com/career-advice/interviewing/how-to-use-the-star-interview-response-technique)
 - [Technical Interview Handbook](https://www.techinterviewhandbook.org/)
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [Behavioral Interview Questions](https://www.themuse.com/advice/30-behavioral-interview-questions-you-should-be-ready-to-answer)
 
-## 🎓 Research & Methodology
+## Research & Methodology
 
 This project implements concepts from:
 - **Retrieval-Augmented Generation (RAG)**: Combines retrieval systems with generation for more accurate, grounded responses
