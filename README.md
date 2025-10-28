@@ -397,7 +397,7 @@ model = SentenceTransformer('all-mpnet-base-v2')  # More accurate, slower
 model = SentenceTransformer('paraphrase-MiniLM-L3-v2')  # Faster, smaller
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Run All Tests
 
@@ -417,8 +417,6 @@ python -m pytest tests/test_rag.py -v
 pip install pytest-cov
 python -m pytest tests/ --cov=src --cov-report=html
 ```
-
-View coverage report: `open htmlcov/index.html`
 
 ## Deployment Options
 
