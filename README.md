@@ -2,8 +2,6 @@
 
 An AI-powered interview practice system that generates role-specific questions and provides personalized feedback using Retrieval-Augmented Generation (RAG) and Chain-of-Thought evaluation.
 
-**Project Timeline:** December 2024 - May 2025
-
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28-red.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
